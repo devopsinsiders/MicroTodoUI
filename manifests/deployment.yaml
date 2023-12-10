@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todoappui
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: todoappui
+  template:
+    metadata:
+      labels:
+        app: todoappui
+    spec:
+      containers:
+      - name: todoappui
+        image: devopsinsiders/todoappui-new
+        ports:
+        - containerPort: 80
