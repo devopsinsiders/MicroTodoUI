@@ -5,9 +5,9 @@ import { Delete } from '@mui/icons-material';
 import { Box } from '@mui/material';
 
 // Please update the below microservice URL's.
-const GET_TASKS_API_BASE_URL = 'http://get-tasks';
-const DELETE_TASK_API_BASE_URL = 'http://delete-task';
-const CREATE_TASK_API_BASE_URL = 'http://add-task';
+const GET_TASKS_API_BASE_URL = 'http://get-tasks.devopsinsiders.online';
+const DELETE_TASK_API_BASE_URL = 'http://delete-task.devopsinsiders.online';
+const CREATE_TASK_API_BASE_URL = 'http://add-task.devopsinsiders.online';
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';

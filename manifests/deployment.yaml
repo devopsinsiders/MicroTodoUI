@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: todoappui
-        image: devopsinsiders/todoappui-new
+        image: devopsinsiders/todoapp-ui-new:v2
         ports:
         - containerPort: 80

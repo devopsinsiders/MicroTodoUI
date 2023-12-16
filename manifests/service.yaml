@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: todoappui
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: todoappui
   ports:
