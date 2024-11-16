@@ -3,11 +3,12 @@ import axios from 'axios';
 import { Button, TextField, Container, Typography, Grid, Card, CardContent, IconButton } from '@mui/material';
 import { Delete } from '@mui/icons-material';
 import { Box } from '@mui/material';
+import config from './config'; // Import the config file with environment variable support
 
-// Please update the below microservice URL's.
-const GET_TASKS_API_BASE_URL = 'http://get-tasks.devopsinsiders.online';
-const DELETE_TASK_API_BASE_URL = 'http://delete-task.devopsinsiders.online';
-const CREATE_TASK_API_BASE_URL = 'http://add-task.devopsinsiders.online';
+// Use the config to define API URLs
+const GET_TASKS_API_BASE_URL = config.GET_TASKS_API_BASE_URL;
+const DELETE_TASK_API_BASE_URL = config.DELETE_TASK_API_BASE_URL;
+const CREATE_TASK_API_BASE_URL = config.CREATE_TASK_API_BASE_URL;
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';
